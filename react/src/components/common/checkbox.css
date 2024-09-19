@@ -1,0 +1,26 @@
+.checkbox-container {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Align items vertically */
+  }
+  
+  .checkbox-input {
+    /* appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none; */
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 8px;
+    cursor: pointer;
+    margin: 10px 15px 5px 10px !important;
+  }
+  
+  .checkbox-input:checked {
+    /* background-color: #007bff; */
+  }
+  
+  .checkbox-label {
+    font-size: 16px;
+    cursor: pointer;
+  }

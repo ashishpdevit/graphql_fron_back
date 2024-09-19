@@ -1,0 +1,56 @@
+.ReactModal__Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Content */
+  .ReactModal__Content {
+    position: relative !important;
+    width: 400px;
+    background-color: #fff; /* White background */
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Drop shadow */
+  }
+  
+  /* Heading */
+  .ReactModal__Content h2 {
+    margin-top: 0;
+  }
+  
+  /* Message */
+  .ReactModal__Content p {
+    margin-bottom: 20px;
+  }
+  
+  /* Buttons */
+  .ReactModal__Content button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .ReactModal__Content button:last-child {
+    margin-right: 0;
+  }
+  
+  /* Delete button */
+  .ReactModal__Content button.delete-button {
+    background-color: #f44336 !important; /* Red background */
+    color: #fff; /* White text */
+  }
+  
+  /* Cancel button */
+  .ReactModal__Content button.cancel-button {
+    background-color: #ccc !important; /* Light gray background */
+    color: #000; /* Black text */
+  }

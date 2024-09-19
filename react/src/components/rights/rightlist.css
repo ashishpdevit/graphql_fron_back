@@ -1,0 +1,16 @@
+select {
+    /* width: 200px;  */
+    padding: 8px; 
+    font-size: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    background-color: #fff; 
+    cursor: pointer; 
+    margin-bottom: 20px;
+  }
+  
+  /* CSS for dropdown options */
+  option {
+    padding: 8px; 
+    font-size: 16px;
+  }
